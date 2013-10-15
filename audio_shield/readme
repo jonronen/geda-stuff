@@ -1,0 +1,32 @@
+This project is an Arduino DUE shield for the NXP UDA-1345 audio codec.
+
+It contains two 3.5mm stereo jacks, one for audio-in and one for audio-out.
+Five jumpers for MP1-MP5 determine the configuration (sample rate, etc.)
+
+The board is designed for the UDA-1345 chip to operate in
+static pin mode (not L3 mode).
+This means that MC1 and MC2 are connected to VDDD.
+
+One jumper determines the clock. It can either be a 12.288MHz crystal
+on-board chip or an Arduino-based clock.
+If the on-board chip is used, set the sample rate to 48KHz and the
+MP3 pin low (connect to ground, marked as "-" in the MP1-MP5 header)
+
+Data in and out are streamed through the following Arduino pins:
+* pin 24 - Audio Data In (DATAI)
+* pin 26 - Audio Data Out (DATAO)
+* pin 28 - Left/Right Select (WS)
+* pin 30 - Data Clock (BCK)
+
+Power supply should be 3.3V but can be any value between 2.4V and 3.6V.
+Supply current should be less than 50mA, so the Arduino 3.3V pin should
+be enough for that matter.
+
+
+TODOs:
+* Add an on-board guitar pre-amp with a guitar input jack for audio-in.
+* Add an on-board mic pre-amp with a microphone jack for audio-in.
+* Add some knobs and switches for multi-purpose effects, to be connected
+  to the Arduino's ADC and/or GPIO.
+* Write some Arduino code to work with this shit!
+
