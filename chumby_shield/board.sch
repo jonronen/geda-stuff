@@ -10,14 +10,12 @@ slot=1
 T 51600 40100 15 10 1 1 0 0 1
 numslots=2
 }
-C 42500 40800 1 0 0 header44.sym
+C 42500 40800 1 0 0 header44-2mm.sym
 {
-T 42750 51500 5 10 0 0 0 0 1
-device=HEADER44
 T 43100 49700 5 10 1 1 0 0 1
 refdes=J1
 T 42500 40800 5 10 0 0 0 0 1
-footprint=CONNECTOR 22 2 2mm
+footprint=2mm_connector_22_2
 }
 C 48900 46500 1 0 0 resistor-variable-1.sym
 {
@@ -27,6 +25,8 @@ T 49500 46900 5 10 1 1 0 0 1
 refdes=R1
 T 49200 46200 5 10 1 1 0 0 1
 value=47K
+T 48900 46500 5 10 0 0 0 0 1
+footprint=upright_potentiometer
 }
 C 41600 47600 1 0 0 capacitor-2.sym
 {
@@ -115,6 +115,8 @@ T 54890 34397 5 8 1 1 0 0 1
 refdes=CN1
 T 54000 32900 5 10 1 1 0 0 1
 value=9V power
+T 53300 33300 5 10 0 0 0 0 1
+footprint=CONNECTOR 3 1
 }
 C 52800 32800 1 0 0 gnd-1.sym
 N 52900 33100 52900 33400 4
@@ -199,6 +201,8 @@ T 49500 44800 5 10 1 1 0 0 1
 refdes=R2
 T 49200 44100 5 10 1 1 0 0 1
 value=47K
+T 48900 44400 5 10 0 0 0 0 1
+footprint=upright_potentiometer
 }
 C 48100 44400 1 0 0 input-1.sym
 {
@@ -228,6 +232,8 @@ T 49500 42700 5 10 1 1 0 0 1
 refdes=R3
 T 49200 42000 5 10 1 1 0 0 1
 value=47K
+T 48900 42300 5 10 0 0 0 0 1
+footprint=upright_potentiometer
 }
 C 48100 42300 1 0 0 input-1.sym
 {
@@ -257,6 +263,8 @@ T 46400 45300 5 10 1 1 0 0 1
 refdes=R4
 T 46100 44600 5 10 1 1 0 0 1
 value=47K
+T 45800 44900 5 10 0 0 0 0 1
+footprint=potentiometer
 }
 C 45000 44900 1 0 0 input-1.sym
 {
@@ -286,6 +294,8 @@ T 46400 43200 5 10 1 1 0 0 1
 refdes=R5
 T 46100 42500 5 10 1 1 0 0 1
 value=47K
+T 45800 42800 5 10 0 0 0 0 1
+footprint=potentiometer
 }
 C 45000 42800 1 0 0 input-1.sym
 {
@@ -315,6 +325,8 @@ T 46400 41200 5 10 1 1 0 0 1
 refdes=R6
 T 46000 40500 5 10 1 1 0 0 1
 value=47K
+T 45800 40800 5 10 0 0 0 0 1
+footprint=potentiometer
 }
 C 45000 40800 1 0 0 input-1.sym
 {
