@@ -1,5 +1,11 @@
-v 20121123 2
+v 20110115 2
 C 40000 40000 0 0 0 title-B.sym
+{
+T 54000 40100 15 10 1 1 0 0 1
+author=Jon Ronen-Drori
+T 50100 40700 15 10 1 1 0 0 1
+value=Simple Bass/Guitar Preamp
+}
 C 45500 47100 1 0 0 dual-opamp-1.sym
 {
 T 45700 49400 5 10 0 0 0 0 1
@@ -10,6 +16,8 @@ T 45700 49000 5 10 0 0 0 0 1
 footprint=DIP8
 T 45700 49600 5 10 0 0 0 0 1
 symversion=0.2
+T 45600 46500 5 10 1 1 0 0 1
+value=NE5532 / OPA1642 / OP284 / etc.
 }
 C 54700 46800 1 0 0 connector3-2.sym
 {
@@ -22,7 +30,7 @@ footprint=CONNECTOR 3 1
 }
 C 48900 47100 1 0 0 connector2-2.sym
 {
-T 49600 48400 5 10 1 1 0 6 1
+T 49800 46800 5 10 1 1 0 6 1
 refdes=CONN2
 T 49200 48350 5 10 0 0 0 0 1
 device=CONNECTOR_2
@@ -243,20 +251,42 @@ N 53400 47200 53400 46800 4
 N 46200 48500 46200 49000 4
 C 42000 47700 1 180 0 connector2-2.sym
 {
-T 41300 46400 5 10 1 1 180 6 1
+T 41200 46400 5 10 1 1 180 6 1
 refdes=CONN3
 T 41700 46450 5 10 0 0 180 0 1
 device=CONNECTOR_2
 T 41700 46250 5 10 0 0 180 0 1
 footprint=CONNECTOR 1 2
 }
-C 45300 42000 1 0 0 connector1-2.sym
+C 43300 42700 1 0 0 connector1-2.sym
 {
-T 46000 42900 5 10 1 1 0 6 1
+T 44000 43600 5 10 1 1 0 6 1
 refdes=CONN4
-T 45600 42850 5 10 0 0 0 0 1
+T 43600 43550 5 10 0 0 0 0 1
 device=CONNECTOR_1
-T 45600 43050 5 10 0 0 0 0 1
+T 43600 43750 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 }
-C 45100 42100 1 0 0 ground.sym
+C 43100 42800 1 0 0 ground.sym
+T 52300 49200 9 10 1 0 0 0 2
+Use +/- 9V up to +/- 18V for VCC and VEE.
+Hint: an ATX power supply of a usual PC has +/- 12V
+T 43200 41200 9 10 1 0 0 0 6
+It is recommended to use a metal enclosure
+as a ground shield.
+
+Make sure the PCB's ground (CONN4)
+is connected to the metal enclosure
+at one point only.
+T 41200 47800 9 10 1 0 0 0 2
+Input
+(Guitar / Bass)
+T 49100 48500 9 10 1 0 0 0 2
+Output
+(to codec / amplifier / etc.)
+T 41200 45000 9 10 1 0 0 0 5
+Use a 10M resistor in
+parallel with CONN3
+to reduce noises and
+clicks when pulling out
+the connector.
