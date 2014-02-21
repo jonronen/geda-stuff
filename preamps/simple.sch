@@ -141,7 +141,7 @@ refdes=C3
 T 45100 50500 5 10 0 0 0 0 1
 symversion=0.1
 T 45200 50100 5 10 1 1 0 0 1
-value=10-100p
+value=10-100p (optional)
 T 44900 49600 5 10 0 0 0 0 1
 footprint=0805
 }
