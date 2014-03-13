@@ -61,7 +61,7 @@ symversion=0.1
 T 43300 47600 5 10 1 1 0 0 1
 value=100n
 T 42700 47100 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 42000 47300 42700 47300 4
 C 43800 45900 1 90 0 resistor-1.sym
@@ -73,7 +73,7 @@ refdes=R1
 T 43100 46500 5 10 1 1 0 0 1
 value=510K
 T 43800 45900 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 43600 47300 45500 47300 4
 N 43700 46800 43700 47300 4
@@ -86,7 +86,7 @@ refdes=R2
 T 44200 46700 5 10 1 1 0 0 1
 value=50K
 T 44800 46100 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 C 44500 46100 1 270 0 capacitor-2.sym
 {
@@ -113,7 +113,7 @@ refdes=R3
 T 45500 49200 5 10 1 1 0 0 1
 value=10K
 T 45000 48900 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 44700 49000 45000 49000 4
 C 47200 49100 1 180 0 pot-bourns.sym
@@ -141,9 +141,9 @@ refdes=C3
 T 45100 50500 5 10 0 0 0 0 1
 symversion=0.1
 T 45200 50100 5 10 1 1 0 0 1
-value=10-100p (optional)
+value=100p-330p (optional)
 T 44900 49600 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 44700 49800 44900 49800 4
 N 45800 49800 47300 49800 4
@@ -201,7 +201,7 @@ symversion=0.1
 T 50000 44200 5 10 1 1 0 0 1
 value=100n
 T 49700 45000 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 C 49700 43700 1 270 0 capacitor-1.sym
 {
@@ -214,7 +214,7 @@ symversion=0.1
 T 50000 42900 5 10 1 1 0 0 1
 value=100n
 T 49700 43700 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 49900 45000 52100 45000 4
 N 52100 42800 49900 42800 4
@@ -231,7 +231,7 @@ refdes=R5
 T 54200 48200 5 10 1 1 0 0 1
 value=100R
 T 53800 47900 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 53800 48000 53400 48000 4
 N 53400 48000 53400 48400 4
@@ -244,7 +244,7 @@ refdes=R6
 T 54200 46800 5 10 1 1 0 0 1
 value=100R
 T 53800 47100 5 10 0 0 0 0 1
-footprint=0805
+footprint=ACY100
 }
 N 53800 47200 53400 47200 4
 N 53400 47200 53400 46800 4
