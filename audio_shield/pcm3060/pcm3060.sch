@@ -15,7 +15,7 @@ device=PCM3060
 T 46064 45260 5 10 1 1 0 0 1
 refdes=U1
 T 45864 44595 5 10 0 1 0 0 1
-footprint=SSOP28
+footprint=TSSOP28
 }
 N 43800 48600 43900 48600 4
 C 48200 50100 1 180 0 capacitor-2.sym
