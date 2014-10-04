@@ -95,8 +95,8 @@ T 51100 48800 5 10 1 1 180 0 1
 refdes=C2
 T 51000 49000 5 10 0 0 0 0 1
 symversion=0.1
-T 51600 48800 5 10 1 1 180 0 1
-value=1uF
+T 51700 48800 5 10 1 1 180 0 1
+value=4.7uF
 T 50800 48100 5 10 0 0 0 0 1
 footprint=RCY100
 }
@@ -168,7 +168,7 @@ device=RESISTOR
 T 54900 49000 5 10 1 1 180 0 1
 refdes=R5
 T 55000 48800 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 54600 48500 5 10 0 0 0 0 1
 footprint=ACY100
 }
@@ -181,7 +181,7 @@ device=RESISTOR
 T 54900 47600 5 10 1 1 180 0 1
 refdes=R6
 T 55000 47400 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 54600 47700 5 10 0 0 0 0 1
 footprint=ACY100
 }
@@ -303,7 +303,7 @@ refdes=C7
 T 51500 46800 5 10 0 0 180 0 1
 symversion=0.1
 T 51300 47000 5 10 1 1 0 0 1
-value=1uF
+value=4.7uF
 T 51700 47700 5 10 0 0 180 0 1
 footprint=RCY100
 }
@@ -380,8 +380,8 @@ T 51100 44700 5 10 1 1 180 0 1
 refdes=C8
 T 51000 44900 5 10 0 0 0 0 1
 symversion=0.1
-T 51600 44700 5 10 1 1 180 0 1
-value=1uF
+T 51700 44700 5 10 1 1 180 0 1
+value=4.7uF
 T 50800 44000 5 10 0 0 0 0 1
 footprint=RCY100
 }
@@ -466,7 +466,7 @@ refdes=C9
 T 51500 42700 5 10 0 0 180 0 1
 symversion=0.1
 T 51300 42900 5 10 1 1 0 0 1
-value=1uF
+value=4.7uF
 T 51700 43600 5 10 0 0 180 0 1
 footprint=RCY100
 }

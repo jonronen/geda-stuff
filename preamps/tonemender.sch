@@ -1,4 +1,4 @@
-v 20121123 2
+v 20110115 2
 C 40000 40000 0 0 0 title-B.sym
 C 49700 47300 1 0 0 dual-opamp-1.sym
 {
@@ -179,7 +179,7 @@ device=RESISTOR
 T 55000 47400 5 10 1 1 180 0 1
 refdes=R4
 T 55100 47200 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 54700 46900 5 10 0 0 0 0 1
 footprint=ACY100
 }
@@ -192,7 +192,7 @@ device=RESISTOR
 T 55000 46000 5 10 1 1 180 0 1
 refdes=R5
 T 55100 45800 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 54700 46100 5 10 0 0 0 0 1
 footprint=ACY100
 }

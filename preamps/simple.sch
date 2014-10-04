@@ -59,7 +59,7 @@ refdes=C1
 T 42900 48000 5 10 0 0 0 0 1
 symversion=0.1
 T 43300 47600 5 10 1 1 0 0 1
-value=100n
+value=100nF-1uF
 T 42700 47100 5 10 0 0 0 0 1
 footprint=ACY100
 }
@@ -229,7 +229,7 @@ device=RESISTOR
 T 54100 48400 5 10 1 1 180 0 1
 refdes=R5
 T 54200 48200 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 53800 47900 5 10 0 0 0 0 1
 footprint=ACY100
 }
@@ -242,7 +242,7 @@ device=RESISTOR
 T 54100 47000 5 10 1 1 180 0 1
 refdes=R6
 T 54200 46800 5 10 1 1 0 0 1
-value=100R
+value=10R
 T 53800 47100 5 10 0 0 0 0 1
 footprint=ACY100
 }
