@@ -28,18 +28,9 @@ device=CONNECTOR_3
 T 55000 48650 5 10 0 0 0 0 1
 footprint=CONNECTOR 3 1
 }
-C 48900 47100 1 0 0 connector2-2.sym
-{
-T 49800 46800 5 10 1 1 0 6 1
-refdes=CONN2
-T 49200 48350 5 10 0 0 0 0 1
-device=CONNECTOR_2
-T 49200 48550 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 2
-}
-C 42100 46600 1 0 0 ground.sym
+C 43000 48400 1 0 0 ground.sym
 C 52600 47000 1 0 0 ground.sym
-C 48700 47600 1 0 0 ground.sym
+C 48500 46800 1 0 0 ground.sym
 C 43500 45600 1 0 0 ground.sym
 C 46200 47200 1 180 0 vee-1.sym
 C 53600 46800 1 180 0 vee-1.sym
@@ -49,7 +40,7 @@ N 46000 47800 46000 47900 4
 N 46000 47100 46000 47200 4
 N 52800 47300 52800 47600 4
 N 52800 47600 54700 47600 4
-N 42000 46900 42300 46900 4
+N 41700 47700 41700 48700 4
 C 42700 47100 1 0 0 capacitor-1.sym
 {
 T 42900 47800 5 10 0 0 0 0 1
@@ -63,7 +54,7 @@ value=100nF-1uF
 T 42700 47100 5 10 0 0 0 0 1
 footprint=ACY100
 }
-N 42000 47300 42700 47300 4
+N 41700 47300 42700 47300 4
 C 43800 45900 1 90 0 resistor-1.sym
 {
 T 43400 46200 5 10 0 0 90 0 1
@@ -249,15 +240,6 @@ footprint=ACY100
 N 53800 47200 53400 47200 4
 N 53400 47200 53400 46800 4
 N 46200 48500 46200 49000 4
-C 42000 47700 1 180 0 connector2-2.sym
-{
-T 41200 46400 5 10 1 1 180 6 1
-refdes=CONN3
-T 41700 46450 5 10 0 0 180 0 1
-device=CONNECTOR_2
-T 41700 46250 5 10 0 0 180 0 1
-footprint=CONNECTOR 1 2
-}
 C 43300 42700 1 0 0 connector1-2.sym
 {
 T 44000 43600 5 10 1 1 0 6 1
@@ -278,15 +260,43 @@ as a ground shield.
 Make sure the PCB's ground (CONN4)
 is connected to the metal enclosure
 at one point only.
-T 41200 47800 9 10 1 0 0 0 2
+T 40800 46700 9 10 1 0 0 0 2
 Input
 (Guitar / Bass)
 T 49100 48500 9 10 1 0 0 0 2
 Output
 (to codec / amplifier / etc.)
-T 41200 45000 9 10 1 0 0 0 5
-Use a 10M resistor in
-parallel with CONN3
-to reduce noises and
-clicks when pulling out
-the connector.
+C 40800 47200 1 0 0 stereo-1.sym
+{
+T 40800 48300 5 10 0 0 0 0 1
+footprint=audio_635mm_stereo_input
+T 40840 47750 5 10 1 1 0 0 1
+device=Stereo
+T 40700 48000 5 10 1 1 0 0 1
+refdes=CONN3
+}
+C 49800 47600 1 180 0 stereo-1.sym
+{
+T 49800 46500 5 10 0 0 180 0 1
+footprint=audio_35mm_stereo_input
+T 49760 47050 5 10 1 1 180 0 1
+device=Stereo
+T 49800 46800 5 10 1 1 180 0 1
+refdes=CONN2
+}
+N 48700 47100 48900 47100 4
+N 48900 47300 48900 47500 4
+C 42600 47500 1 90 0 resistor-1.sym
+{
+T 42200 47800 5 10 0 0 90 0 1
+device=RESISTOR
+T 42300 47900 5 10 1 1 180 0 1
+refdes=R7
+T 42000 48100 5 10 1 1 0 0 1
+value=10M
+T 42600 47500 5 10 0 0 0 0 1
+footprint=ACY100
+}
+N 41700 48700 43200 48700 4
+N 42500 48400 42500 48700 4
+N 42500 47500 42500 47300 4
