@@ -1,0 +1,17 @@
+L1, L2: 2x Ferrite bead, 2.2Kohm@100MHz, 200mA, 1ohm, 0805 SMD
+X1: 12.288MHz 3.3V oscillator, FXO-HC536R-12.288, 3.2x5mm SMD
+U1: Stereo Audio Codec, TI PCM3060PW, TSSOP-28
+R1: Resistor, 47ohm, 0805 SMD
+R2, R3: 2x Resistor, 10Kohm, 0805 SMD
+R4, R5: 2x Resistor, 100ohm, 0805 SMD
+R8: Resistor, 220Kohm, 0805 SMD
+C1, C3, C11: 3x Radial Electrolytic Capacitor, 10uF, 50V, 5x11mm
+C2, C4, C10, C12: 4x Capacitor, 100nF, 50V, 0805 SMD
+C5, C6: 2x Radial Electrolytic Capacitor, 4.7uF, 50V, 5x11mm
+C7, C8: 2x Radial Electrolytic Capacitor, 22uF, 50V, 5x11mm
+C9: Capacitor, 10nF, 50V, 0805 SMD
+C13, C14: 2x Radial Electrolytic Capacitor, 100uF, 35V, 6x11mm
+CONN1, CONN2: 2x Stereo Enclosed Socket Chassis Jack
+    http://www.taydaelectronics.com/hardware/3-5mm-plugs-jacks/3-5mm-stereo-enclosed-socket-chassis-jack.html
+CONN3: Stackable Header, 2.54mm, 2x4 Pins (solder with pins facing up)
+
